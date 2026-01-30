@@ -1,1 +1,6 @@
-# acit4640-lab4
+# 4640-in-class-wk4
+
+## Team
+
+- Misha Makaroff
+- Angad Bains
