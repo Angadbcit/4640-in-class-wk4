@@ -6,4 +6,10 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - lab4key1.pub
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIxWFP6hNA55TryFLdaTVEE11w1nYP3HFcN/zGc4WS3E anges@root
+
+package_update: true
+package_upgrade: true
+packages:
+  - nginx
+  - nmap
