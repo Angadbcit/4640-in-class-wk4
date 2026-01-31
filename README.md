@@ -21,6 +21,10 @@ package_upgrade: true
 packages:
   - nginx
   - nmap
+
+runcmd:
+  - systemctl enable nginx
+  - systemctl start nginx
 ```
 
 ## Task 2
