@@ -81,8 +81,14 @@ vpc_security_group_ids = [aws_security_group.web.id]
 ## Task 3
 
 Create the terraform directory: `terraform init`
+
 Check the config file: `terraform validate`
+
 Dry run the config: `terraform plan`
+
+Create everything from the config file: `terraform apply`
+
+Once done with everything: `terraform destroy`
 
 ## References
 
